@@ -18,7 +18,7 @@ diskspd.exe -L -D -r -d90 -w62 -b16k -o4 -F1 -c50m -a3 c:\admglsh\test.dat
 |< 66.000  |:-1: bad   |
 
 
-##### Local Storage SSD Raid5 / VM, OS 2019
+##### :+1: Local Storage SSD Raid5 / VM, OS 2019
 
 |       |       bytes     |   I/Os     |    MiB/s   |  I/O per s |  AvgLat  | IopsStdDev | LatStdDev |
 |-------|----------------:|-----------:|-----------:|-----------:|---------:|-----------:|----------:|
