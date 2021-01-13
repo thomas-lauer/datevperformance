@@ -25,7 +25,7 @@ Je mehr IOPS und je geringer die Latenz, umso besser.
 
 
 | System                                        | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
-|-----------------------------------------------|----------------:|-----------:|------------:|
+|:----------------------------------------------|----------------:|-----------:|------------:|
 |HYPERV VM auf HP ML380 Lokal Storage SSD RAID5 |   1.859,76      | 119.024,53 |       0,025 |
 |Surface Pro 7, W10, SSD 1TB                    |        1.449,32 |  92.756,25 |       0,032 |
 
