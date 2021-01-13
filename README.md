@@ -26,9 +26,9 @@ Je mehr IOPS und je geringer die Latenz, umso besser.
 
 ##### :+1: Local Storage 10x SSD Raid5 / VM, OS 2019
 
-|    MiB/s   |  I/O per s |  AvgLat  | IopsStdDev | LatStdDev |
-|-----------:|-----------:|---------:|-----------:|----------:|
-|  *1859.76* |*119024.53* |  *0.025* |    1155.77 |     0.016 |
+|    MiB/s   |  I/O per s |  AvgLat  |
+|-----------:|-----------:|---------:|
+|  *1859.76* |*119024.53* |  *0.025* |
 
 
 ##### :+1: Local Storage 18x SATA Raid5 / VM, OS 2019
