@@ -24,11 +24,14 @@ Latenz von 0.025 ms.
 Je mehr IOPS und je geringer die Latenz, umso besser.
 
 
-| System                                        | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
-|:----------------------------------------------|----------------:|-----------:|------------:|
-|HYPERV VM auf HP ML380 Lokal Storage SSD RAID5 |   1.859,76      | 119.024,53 |       0,025 |
-|Surface Pro 7, W10, SSD 1TB                    |        1.449,32 |  92.756,25 |       0,032 |
-|HYPERV VM auf HP ML380 Datev Shared Storage SSD|    1.786,78     | 114.353,75 |    0,035    |
+| System                                            | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
+|:----------------------------------------------------|----------------:|-----------:|------------:|
+|HYPERV VM2019 auf HP ML380 Lokal Storage SSD RAID5   |   1.859,76      | 119.024,53 |       0,025 |
+|Surface Pro 7, W10, SSD 1TB                          |        1.449,32 |  92.756,25 |       0,032 |
+|HYPERV VM2019 auf HP ML380 Datev Shared Storage SSD  |    1.786,78     | 114.353,75 |    0,035    |
+|HYPERV VM2012R2 auf HP ML380 Datev Shared Storage SSD|    1.818,89     | 116.409,19 |    0.025    |
+|ESX VM2016 auf DELL Shared Storage SATA              |    1.786,78     | 114.353,75 |    0,035    |
+|ESX VM2012R2 auf DELL Shared Storage SATA            |    1.786,78     | 114.353,75 |    0,035    |
 
 
 
