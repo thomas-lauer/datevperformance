@@ -43,7 +43,7 @@ type "%uWorkDir%result.txt"
 ```
 ### Die wichtigen Zahlen findet man hier
 
-![Ausgabe Diskspd](https://octodex.github.com/images/yaktocat.png)
+![Ausgabe Diskspd](https://octodex.github.com/diskspd_result.png)
 
 
 
