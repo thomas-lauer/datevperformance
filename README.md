@@ -17,14 +17,19 @@ diskspd.exe -L -D -r -d90 -w62 -b16k -o4 -F1 -c50m -a3 c:\admglsh\test.dat
 |> 118.000 |:+1: good  |
 |< 66.000  |:-1: bad   |
 
+Total IO und sehen hier drei wichtige Kenndaten: 
+Einen Durchsatz von 1859.76 MB/s, 
+119024.53 IOPS und eine 
+Latenz von 0.025 ms. 
+Je mehr IOPS und je geringer die Latenz, umso besser.
+
 
 ##### :+1: Local Storage 10x SSD Raid5 / VM, OS 2019
 
-|       |       bytes     |   I/Os     |    MiB/s   |  I/O per s |  AvgLat  | IopsStdDev | LatStdDev |
-|-------|----------------:|-----------:|-----------:|-----------:|---------:|-----------:|----------:|
-|TotalIO|    175508717568 |   10712202 |    1859.76 |  119024.53 |    0.025 |    1155.77 |     0.016 |
-|Read IO|     66705752064 |    4071396 |     706.84 |   45237.76 |    0.025 |     484.72 |     0.017 |
-|WriteIO|    108802965504 |    6640806 |    1152.92 |   73786.78 |    0.025 |     711.20 |     0.016 |
+|    MiB/s   |  I/O per s |  AvgLat  | IopsStdDev | LatStdDev |
+|-----------:|-----------:|---------:|-----------:|----------:|
+|  *1859.76* |*119024.53* |  *0.025* |    1155.77 |     0.016 |
+
 
 ##### :+1: Local Storage 18x SATA Raid5 / VM, OS 2019
 |       |       bytes     |   I/Os     |    MiB/s   |  I/O per s |  AvgLat  | IopsStdDev | LatStdDev |
