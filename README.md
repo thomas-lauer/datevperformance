@@ -43,7 +43,7 @@ type "%uWorkDir%result.txt"
 ```
 ### Die wichtigen Zahlen findet man hier
 
-![Ausgabe Diskspd](https://octodex.github.com/diskspd_result.png)
+![Ausgabe Diskspd](https://github.com/glshnu/datevperformance/blob/main/diskspd_result.png)
 
 
 
