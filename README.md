@@ -24,14 +24,14 @@ Latenz von 0.025 ms.
 Je mehr IOPS und je geringer die Latenz, umso besser.
 
 
-| System                                            | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
+| System                                              | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
 |:----------------------------------------------------|----------------:|-----------:|------------:|
 |HYPERV VM2019 auf HP ML380 Lokal Storage SSD RAID5   |   1.859,76      | 119.024,53 |       0,025 |
 |Surface Pro 7, W10, SSD 1TB                          |        1.449,32 |  92.756,25 |       0,032 |
 |HYPERV VM2019 auf HP ML380 Datev Shared Storage SSD  |    1.786,78     | 114.353,75 |    0,035    |
-|HYPERV VM2012R2 auf HP ML380 Datev Shared Storage SSD|    1.818,89     | 116.409,19 |    0.025    |
-|ESX VM2016 auf DELL Shared Storage SATA              |    1.786,78     | 114.353,75 |    0,035    |
-|ESX VM2012R2 auf DELL Shared Storage SATA            |    1.786,78     | 114.353,75 |    0,035    |
+|HYPERV VM2012R2 auf HP ML380 Datev Shared Storage SSD|    1.818,89     | 116.409,19 |    0,025    |
+|ESX VM2016 auf DELL Shared Storage SATA - von 2015   |    986,88       |  63.160,09 |    0,062    |
+|ESX VM2012R2 auf DELL Shared Storage SATA - von 2015 |    1.081,80     |  69.235,33 |    0,042    |
 
 
 
@@ -41,6 +41,10 @@ Beispiel Batch
 "%uWorkDir%diskspd.exe"  -L -D -r -d90 -w62 -b16k -o4 -F1 -c50m -a3 "%uWorkDir%test.dat" > "%uWorkDir%result.txt"
 type "%uWorkDir%result.txt"
 ```
+# Die wichtigen Zahlen findet man hier
+
+
+
 
 
 ##Links
