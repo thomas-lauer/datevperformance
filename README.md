@@ -24,22 +24,20 @@ Latenz von 0.025 ms.
 Je mehr IOPS und je geringer die Latenz, umso besser.
 
 ### Baselines
-| System                                                    | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
-|:----------------------------------------------------------|----------------:|-----------:|------------:|
-|HYPERV VM2019 auf HP DL380 Lokal Storage SSD RAID5         |   1.859,76      | 119.024,53 |       0,025 |
-|Surface Pro 7, W10, SSD 1TB                                |        1.449,32 |  92.756,25 |       0,032 |
-|HYPERV VM2019 auf HP DL380 Datev Shared Storage SSD        |    1.786,78     | 114.353,75 |    0,035    |
-|HYPERV VM2012R2 auf DP ML380 Datev Shared Storage SSD      |    1.818,89     | 116.409,19 |    0,025    |
-|ESX VM2016 auf DELL Shared Storage SATA - von 2015         |    986,88       |  63.160,09 |    0,062    |
-|ESX VM2012R2 auf DELL Shared Storage SATA - von 2015       |    1.081,80     |  69.235,33 |    0,042    |
-|ESXi6.5, HPE DL380 Gen9, DATEV FS VM2016 Pday 2020/12      | 1.143,58        | 73.189,25  | 0,054       |
-|ESXi 6.5, HPE DL380 G9,TS VM2016, Purestorage, Pday 2020/12| 978,14          | 62.600,72  | 0,064       |
-
-|HyperV 2019 Pday 2020/12, HPE DL380 G10, DATEV FS VM2016 Pday 2020/12| 1685.96 |  107901.75 | 0.037|
-HyperV 2019 Patchday 2020/12, HPE DL380 Gen10, Terminalserver VM Windows Server 2016 Patchday 2020/12: 1318.44 | 84379.89 | 0.047
-
-HyperV 2016 Patchday 2020/12, HPE DL380 Gen10, DATEV Fileserver VM Windows Server 2016 Patchday 2020/12: 1608.73 |  102958.51 | 0.039
-HyperV 2016 Patchday 2020/12, HPE DL380 Gen10, Terminalserver VM Windows Server 2016 Patchday 2020/12: 1426.54 | 91298.25 | 0.044
+| System                                                                          | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
+|:--------------------------------------------------------------------------------|----------------:|-----------:|------------:|
+|HYPERV VM2019 auf HP DL380 Lokal Storage SSD RAID5                               |   1.859,76      | 119.024,53 |       0,025 |
+|Surface Pro 7, W10, SSD 1TB                                                      |        1.449,32 |  92.756,25 |       0,032 |
+|HYPERV VM2019 auf HP DL380 Datev Shared Storage SSD                              |    1.786,78     | 114.353,75 |    0,035    |
+|HYPERV VM2012R2 auf DP ML380 Datev Shared Storage SSD                            |    1.818,89     | 116.409,19 |    0,025    |
+|ESX VM2016 auf DELL Shared Storage SATA - von 2015                               |    986,88       |  63.160,09 |    0,062    |
+|ESX VM2012R2 auf DELL Shared Storage SATA - von 2015                             |    1.081,80     |  69.235,33 |    0,042    |
+|ESXi6.5, HPE DL380 Gen9, DATEV FS VM2016 Pday 2020/12                            | 1.143,58        | 73.189,25  | 0,054       |
+|ESXi 6.5, HPE DL380 G9,TS VM2016, Purestorage, Pday 2020/12                      | 978,14          | 62.600,72  | 0,064       |
+|HyperV2019 Pday 2020/12, DL380 G10, Purestorage, DATEV FS VM2016 Pday 2020/12    | 1.685,96        | 107.901,75 | 0,037       |
+|HyperV2019 Pday 2020/12, HPE DL380 G10, Purestorage, TS VM2016 Pday 2020/12      | 1.318,44        | 84.379,89  | 0,047       |
+|HyperV2016 Pday 2020/12, HPE DL380 G10, Purestorage, DATEV FS VM2016 Pday 2020/12| 1.608,73        | 102.958,51 | 0,039       |
+|HyperV2016 Pday 2020/12, HPE DL380 G10, TS VM2016 Pday 2020/12                   | 1.426,54        | 91.298,25  | 0,044       |
 
 
 
