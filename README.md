@@ -26,7 +26,7 @@ Je mehr IOPS und je geringer die Latenz, umso besser.
 ### Baselines
 | System                                                                          | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
 |:--------------------------------------------------------------------------------|----------------:|-----------:|------------:|
-|HYPERV VM2019 auf HP DL380 Lokal Storage SSD RAID5                               |   1.859,76      | 119.024,53 |       0,025 |
+|HYPERV2019 VM2019 auf HP DL380 Lokal Storage SSD RAID5                           |   1.859,76      | 119.024,53 |       0,025 |
 |Surface Pro 7, W10, SSD 1TB                                                      |        1.449,32 |  92.756,25 |       0,032 |
 |HYPERV VM2019 auf HP DL380 Datev Shared Storage SSD                              |    1.786,78     | 114.353,75 |    0,035    |
 |HYPERV VM2012R2 auf DP ML380 Datev Shared Storage SSD                            |    1.818,89     | 116.409,19 |    0,025    |
@@ -40,7 +40,7 @@ Je mehr IOPS und je geringer die Latenz, umso besser.
 |HyperV2016 Pday 2020/12, HPE DL380 G10, TS VM2016 Pday 2020/12                   | 1.426,54        | 91.298,25  | 0,044       |
 |HyperV2016 Pday 2020/12, Wortmann TERRA SERVER 7220 G2, VDI VM W10 Pday 2021/01  | 1.134,72        | 72.622,06  | 0,055       |
 |ESXi6.5, HPE DL380 G9, DATEV FS VM2016 Pday 2020/12                              | 1.315,93        | 84.219,38  | 0,047       |
-|HPE Synergy / Pure Storage / Comput Module 480 Gen10 Hyper-V-2019 / VM 2019      |  2.136,8        | 139.260,66 | 0,0026      |
+|HPE Synergy / Pure Storage / Comput Module 480 Gen10 Hyper-V-2019 / VM 2019      |  2.136,80       | 139.260,66 | 0,026       |
 
 
 
