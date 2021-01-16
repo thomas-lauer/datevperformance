@@ -41,6 +41,8 @@ Je mehr IOPS und je geringer die Latenz, umso besser.
 |HyperV2016 Pday 2020/12, Wortmann TERRA SERVER 7220 G2, VDI VM W10 Pday 2021/01  | 1.134,72        | 72.622,06  | 0,055       |
 |ESXi6.5, HPE DL380 G9, DATEV FS VM2016 Pday 2020/12                              | 1.315,93        | 84.219,38  | 0,047       |
 |HPE Synergy / Pure Storage / Comput Module 480 Gen10 Hyper-V-2019 / VM 2019      |  2.136,80       | 139.260,66 | 0,026       |
+|Azure D4v3 VM2019 P30 Storage                                                    |1.806,71         |115.629,00  | 0,026       |
+
 
 
 
