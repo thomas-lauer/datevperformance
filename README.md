@@ -57,6 +57,14 @@ type "%uWorkDir%result.txt"
 ![Ausgabe Diskspd](https://github.com/glshnu/datevperformance/blob/main/diskspd_result.png)
 
 
+## Prozessor Messen
+[Prozessor Geschwindigkeit messen](https://github.com/glshnu/datevperformance/blob/main/prozessor_messen.ps1)
+
+| Wert     | Bewertung |
+|----------|-----------|
+|> 25.000  |:+1: good  |
+|< 16.000  |:-1: bad   |
+
 
 ## Links
 https://www.altaro.com/hyper-v/storage-performance-baseline-diskspd/  
