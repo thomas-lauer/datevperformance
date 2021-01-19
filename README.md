@@ -65,9 +65,10 @@ type "%uWorkDir%result.txt"
 |> 25.000  |:+1: good  |
 |< 16.000  |:-1: bad   |
 
-| Beschreibung                                                               | Wert       |
-|:---------------------------------------------------------------------------|-----------:|
-|VM2019 / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht  | 28.040     |
+| Beschreibung                                                                                          | Wert       |
+|:------------------------------------------------------------------------------------------------------|-----------:|
+|VM2019 / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht                             | 28.040     |
+|TSVM2016 32GB vRAM / 7 User DATEV / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht  | 18.317     |
 
 
 ## Links
