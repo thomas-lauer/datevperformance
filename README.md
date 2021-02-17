@@ -70,7 +70,15 @@ type "%uWorkDir%result.txt"
 |VM2019 / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht                             | 28.040     |
 |TSVM2016 32GB vRAM / 7 User DATEV / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht  | 18.317     |
 
+## Überbuchung prüfen
+[Check vCPU Ratios](https://github.com/glshnu/datevperformance/blob/main/checkvCPURatios.ps1)
+
+## NUMA-Affinität prüfen
+[Check NUMA spanning](https://github.com/glshnu/datevperformance/blob/main/CheckNumaSpanning.ps1)
+
 
 ## Links
 https://www.altaro.com/hyper-v/storage-performance-baseline-diskspd/  
-https://www.windowspro.de/marcel-kueppers/storage-performance-iops-unter-hyper-v-messen-diskspd()
+https://www.windowspro.de/marcel-kueppers/storage-performance-iops-unter-hyper-v-messen-diskspd
+https://docs.pexip.com/server_design/hyperv_numa_affinity.htm
+
