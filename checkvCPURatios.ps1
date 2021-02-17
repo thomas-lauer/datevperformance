@@ -1,8 +1,7 @@
-# PowerShell script to query some hardware infos from Hyper-V hosts (physical cores, logical cores, used virtual cores, mem overall, mem free, ...)
-# Written by Haiko Hertes | www.hertes.net
+# PowerShell script to check the vCPURatios
 
 # Change this according to your needs
-$AllHyperVHosts = "SRV042HV"
+$AllHyperVHosts = $env:COMPUTERNAME
 
 function Get-HyperVHostInfo([string]$HyperVHost)
 {
