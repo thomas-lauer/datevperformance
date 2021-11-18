@@ -6,15 +6,15 @@
 Get-NetTCPSetting | ft -AutoSize
 Set-NetTCPSetting -SettingName "InternetCustom" -CongestionProvider CTCP
 Set-NetTCPSetting -SettingName "InternetCustom" -DelayedAckTimeoutMs 50
-Set-NetTCPSetting -SettingName "InternetCustom" -ForceWS 
-DisabledSet-NetTCPSetting -SettingName "DatacenterCustom" -CongestionProvider DCTCP
+Set-NetTCPSetting -SettingName "InternetCustom" -ForceWS Disabled
+Set-NetTCPSetting -SettingName "DatacenterCustom" -CongestionProvider DCTCP
 Set-NetTCPSetting -SettingName "DatacenterCustom" -CwndRestart True
-Set-NetTCPSetting -SettingName "DatacenterCustom" -ForceWS 
-DisabledSet-NetTCPSetting -SettingName "Compat" -ForceWS 
-DisabledSet-NetTCPSetting -SettingName "Datacenter" -CongestionProvider DCTCP
+Set-NetTCPSetting -SettingName "DatacenterCustom" -ForceWS Disabled
+Set-NetTCPSetting -SettingName "Compat" -ForceWS Disabled
+Set-NetTCPSetting -SettingName "Datacenter" -CongestionProvider DCTCP
 Set-NetTCPSetting -SettingName "Datacenter" -CwndRestart True
-Set-NetTCPSetting -SettingName "Datacenter" -ForceWS 
-DisabledSet-NetTCPSetting -SettingName "Internet" -CongestionProvider CTCP
+Set-NetTCPSetting -SettingName "Datacenter" -ForceWS Disabled
+Set-NetTCPSetting -SettingName "Internet" -CongestionProvider CTCP
 Set-NetTCPSetting -SettingName "Internet" -DelayedAckTimeoutMs 50
 Set-NetTCPSetting -SettingName "Internet" -ForceWS Disabled
 
