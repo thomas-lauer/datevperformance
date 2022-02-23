@@ -79,9 +79,13 @@ type "%uWorkDir%result.txt"
 ## NUMA-Affinität prüfen
 [Check NUMA spanning](https://github.com/glshnu/datevperformance/blob/main/CheckNumaSpanning.ps1)
 
+## Virenscanner ausschlüsse  
+[Microsoft Defender]
+
 
 ## Links
 https://www.altaro.com/hyper-v/storage-performance-baseline-diskspd/  
 https://www.windowspro.de/marcel-kueppers/storage-performance-iops-unter-hyper-v-messen-diskspd
 https://docs.pexip.com/server_design/hyperv_numa_affinity.htm
+https://apps.datev.de/help-center/documents/1080028
 
