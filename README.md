@@ -80,7 +80,7 @@ type "%uWorkDir%result.txt"
 [Check NUMA spanning](https://github.com/glshnu/datevperformance/blob/main/CheckNumaSpanning.ps1)
 
 ## Virenscanner ausschlüsse  
-[Microsoft Defender]
+[Microsoft Defender](https://github.com/glshnu/datevperformance/blob/main/msdefenderexclusions.ps1)
 
 
 ## Links

@@ -1,4 +1,5 @@
 # DATEV Empfohleme Ausschlüsse für Virenscanner
+# für Microsoft Defender
 # https://apps.datev.de/help-center/documents/1080028
 # erweitert um .VHDX
 # Thomas Lauer - 23.02.2022
