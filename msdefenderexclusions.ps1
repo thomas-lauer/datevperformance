@@ -4,6 +4,8 @@
 # erweitert um .VHDX
 # Thomas Lauer - 23.02.2022
 #
+# Ausschlüsse testen mit
+# Invoke-WebRequest "http://www.eicar.org/download/eicar.com.txt" -OutFile "C:\test\kostdb.mdb"
 
 Add-MpPreference -ExclusionExtension ".LOG"
 Add-MpPreference -ExclusionExtension ".MDF"
@@ -18,7 +20,16 @@ Add-MpPreference -ExclusionExtension ".VMC"
 Add-MpPreference -ExclusionExtension ".VMD"
 Add-MpPreference -ExclusionExtension ".VMS"
 Add-MpPreference -ExclusionExtension ".VMX"
-Add-MpPreference -ExclusionExtension "KOSTST.MDB"
+
+# !!!WICHTIG!!! Laufwerk anpassen
+$kdbs = Get-ChildItem -Path c:\ -Recurse -Filter 'kostdb.mdb' -ErrorAction SilentlyContinue | Select-Object FullName
+foreach($kdb in $kdbs)
+{
+    write-host $kdb.FullName
+    Add-MpPreference -ExclusionPath $kdb.FullName
+}
+
+
 Add-MpPreference -ExclusionExtension ".BTV"
 Add-MpPreference -ExclusionExtension ".DB"
 Add-MpPreference -ExclusionExtension ".DBX"
