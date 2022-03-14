@@ -1,5 +1,3 @@
-# DATEV Leitungsindex Silent ausführen
-
 function Get-IniFile 
 {  
     param(  
@@ -56,22 +54,25 @@ $latest.name
 $iniFile = Get-IniFile $latest.FullName
 
 $StartScore = $iniFile.StartScore.Duration.replace(' Sekunden','')
-$StartScore
+write-host "StartScore" $StartScore
 
 $DataAccessScore = $iniFile.DataAccessScore.Duration.replace(' Sekunden','')
-$DataAccessScore
+write-host "DataAccessScore" $DataAccessScore
 
 $ProcessorScore = $iniFile.ProcessorScore.Duration.replace(' Sekunden','')
-$ProcessorScore
+write-host "ProcessorScore" $ProcessorScore
 
 $HardDiskScore = $iniFile.HardDiskScore.Duration.replace(' Sekunden','')
-$HardDiskScore
+write-host "HardDiskScore" $HardDiskScore
 
 $ServiceScore = $iniFile.ServiceScore.Duration.replace(' Sekunden','')
-$ServiceScore
+write-host "ServiceScore" $ServiceScore
 
 $GuiScore = $iniFile.GuiScore.Duration.replace(' Sekunden','')
-$GuiScore
+write-host "GuiScore" $GuiScore
 
 $OverallScore = $iniFile.OverallScore.Duration.replace(' Sekunden','')
-$OverallScore
+write-host "OverallScore" $OverallScore
+
+# UDF Feld für Datto RMM schreiben
+New-ItemProperty -Path HKLM:\SOFTWARE\CentraStage -Name Custom16 -Value $OverallScore -Force
