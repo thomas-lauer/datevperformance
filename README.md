@@ -82,6 +82,8 @@ type "%uWorkDir%result.txt"
 ## Virenscanner ausschlüsse  
 [Microsoft Defender](https://github.com/glshnu/datevperformance/blob/main/msdefenderexclusions.ps1)
 
+## Datev Leitungsindex silent ausführen
+https://github.com/glshnu/datevperformance/blob/main/leistungsindexsilent.ps1
 
 ## Links
 https://www.altaro.com/hyper-v/storage-performance-baseline-diskspd/  
