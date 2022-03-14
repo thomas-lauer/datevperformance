@@ -48,8 +48,15 @@ Start-Process -FilePath "$($env:datevpp)\PROGRAMM\RWApplic\irw.exe" -ArgumentLis
 Start-Process -FilePath "$($env:datevpp)\PROGRAMM\RWApplic\irw.exe" -ArgumentList "-ap:PerfIndex -d:IRW20011 -c" -Wait
 
 $dir = "$($env:temp)\IrwPerformanceIndex*.txt"
+write-host "dir" $dir
+
+write-host "USERNAME" $env:USERNAME
+write-host "USERPROFILE" $env:USERPROFILE
+write-host "COMPUTERNAME" $env:COMPUTERNAME
+
 $latest = Get-ChildItem -Path $dir | Sort-Object LastAccessTime -Descending | Select-Object -First 1
-$latest.name
+write-host "latest.name" $latest.name
+write-host "latest.FullName" $latest.FullName
 
 $iniFile = Get-IniFile $latest.FullName
 
@@ -76,3 +83,4 @@ write-host "OverallScore" $OverallScore
 
 # UDF Feld für Datto RMM schreiben
 New-ItemProperty -Path HKLM:\SOFTWARE\CentraStage -Name Custom16 -Value $OverallScore -Force
+
