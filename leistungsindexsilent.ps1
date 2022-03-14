@@ -44,10 +44,10 @@ function Get-IniFile
     return $ini  
 }
 
-Start-Process -FilePath "$env:datevpp\PROGRAMM\RWApplic\irw.exe" -ArgumentList "-ap:PerfIndex -d:IRW20011 -c" -Wait
-Start-Process -FilePath "$env:datevpp\PROGRAMM\RWApplic\irw.exe" -ArgumentList "-ap:PerfIndex -d:IRW20011 -c" -Wait
+Start-Process -FilePath "$($env:datevpp)\PROGRAMM\RWApplic\irw.exe" -ArgumentList "-ap:PerfIndex -d:IRW20011 -c" -Wait
+Start-Process -FilePath "$($env:datevpp)\PROGRAMM\RWApplic\irw.exe" -ArgumentList "-ap:PerfIndex -d:IRW20011 -c" -Wait
 
-$dir = "$env:temp\IrwPerformanceIndex*.txt"
+$dir = "$($env:temp)\IrwPerformanceIndex*.txt"
 $latest = Get-ChildItem -Path $dir | Sort-Object LastAccessTime -Descending | Select-Object -First 1
 $latest.name
 
