@@ -82,5 +82,5 @@ $OverallScore = $iniFile.OverallScore.Duration.replace(' Sekunden','')
 write-host "OverallScore" $OverallScore
 
 # UDF Feld für Datto RMM schreiben
-New-ItemProperty -Path HKLM:\SOFTWARE\CentraStage -Name Custom16 -Value $OverallScore -Force
+# New-ItemProperty -Path HKLM:\SOFTWARE\CentraStage -Name Custom16 -Value $OverallScore -Force
 
