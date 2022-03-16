@@ -1,3 +1,7 @@
+# DATEV Leistungsindex Silent ausführen
+# 03/2022 - Thomas Lauer (lauer@glsh.net)
+# Github - https://github.com/glshnu
+
 function Get-IniFile 
 {  
     param(  
