@@ -1,8 +1,8 @@
 # DATEV Empfohleme Ausschlüsse für Virenscanner
 # für Microsoft Defender
 # https://apps.datev.de/help-center/documents/1080028
-# erweitert um .VHDX
-# Thomas Lauer - 23.02.2022
+# 
+# Thomas Lauer - 18.01.2023
 #
 # Ausschlüsse testen mit
 # Invoke-WebRequest "http://www.eicar.org/download/eicar.com.txt" -OutFile "C:\test\kostdb.mdb"
@@ -39,12 +39,6 @@ Add-MpPreference -ExclusionExtension ".INI"
 Add-MpPreference -ExclusionExtension ".LDF"
 
 # mit Vorsicht zu geniesen
-
-Add-MpPreference -ExclusionPath "C:\Program Files (x86)\CentraStage\CagService.exe"
-Add-MpPreference -ExclusionPath "C:\ProgramData\Microsoft\Windows Defender\Scans\mpenginedb*"
-Add-MpPreference -ExclusionPath "C:\ProgramData\CentraStage\AEMAgent\AEMAgent.exe"
-Add-MpPreference -ExclusionPath "C:\DATEV\LOG"
-Add-MpPreference -ExclusionPath "L:\DATEV\LOG"
 
 # !!!WICHTIG!!! Laufwerk anpassen
 $aexes = Get-ChildItem -Path c:\ -Recurse -Filter 'Arbeitsplatz.exe' -ErrorAction SilentlyContinue | Select-Object FullName
