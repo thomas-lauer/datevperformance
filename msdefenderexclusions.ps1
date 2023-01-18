@@ -38,10 +38,42 @@ Add-MpPreference -ExclusionExtension ".IDX"
 Add-MpPreference -ExclusionExtension ".INI"
 Add-MpPreference -ExclusionExtension ".LDF"
 
-# mit Vorsicht geniesen
+# mit Vorsicht zu geniesen
 
 Add-MpPreference -ExclusionPath "C:\Program Files (x86)\CentraStage\CagService.exe"
 Add-MpPreference -ExclusionPath "C:\ProgramData\Microsoft\Windows Defender\Scans\mpenginedb*"
 Add-MpPreference -ExclusionPath "C:\ProgramData\CentraStage\AEMAgent\AEMAgent.exe"
 Add-MpPreference -ExclusionPath "C:\DATEV\LOG"
 Add-MpPreference -ExclusionPath "L:\DATEV\LOG"
+
+# !!!WICHTIG!!! Laufwerk anpassen
+$aexes = Get-ChildItem -Path c:\ -Recurse -Filter 'Arbeitsplatz.exe' -ErrorAction SilentlyContinue | Select-Object FullName
+foreach($aexe in $aexes)
+{
+    write-host $aexe.FullName
+    Add-MpPreference -ExclusionPath $aexe.FullName
+}
+
+# !!!WICHTIG!!! Laufwerk anpassen
+$iexes = Get-ChildItem -Path c:\ -Recurse -Filter 'irw.exe' -ErrorAction SilentlyContinue | Select-Object FullName
+foreach($iexe in $iexes)
+{
+    write-host $iexe.FullName
+    Add-MpPreference -ExclusionPath $iexe.FullName
+}
+
+# !!!WICHTIG!!! Laufwerk anpassen
+$dexes = Get-ChildItem -Path c:\ -Recurse -Filter 'dts.exe' -ErrorAction SilentlyContinue | Select-Object FullName
+foreach($dexe in $dexes)
+{
+    write-host $dexe.FullName
+    Add-MpPreference -ExclusionPath $dexe.FullName
+}
+
+# !!!WICHTIG!!! Laufwerk anpassen
+$sexes = Get-ChildItem -Path c:\ -Recurse -Filter 'starface.exe' -ErrorAction SilentlyContinue | Select-Object FullName
+foreach($sexe in $sexes)
+{
+    write-host $sexe.FullName
+    Add-MpPreference -ExclusionPath $sexe.FullName
+}
