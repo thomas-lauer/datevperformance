@@ -77,3 +77,19 @@ foreach($sexe in $sexes)
     write-host $sexe.FullName
     Add-MpPreference -ExclusionPath $sexe.FullName
 }
+
+# !!!WICHTIG!!! Laufwerk anpassen
+$lexes = Get-ChildItem -Path c:\ -Recurse -Filter 'LogFilter.exe' -ErrorAction SilentlyContinue | Select-Object FullName
+foreach($lexe in $lexes)
+{
+    write-host $lexe.FullName
+    Add-MpPreference -ExclusionPath $lexe.FullName
+}
+
+# !!!WICHTIG!!! Laufwerk anpassen
+$wexes = Get-ChildItem -Path c:\ -Recurse -Filter 'wpwin.exe' -ErrorAction SilentlyContinue | Select-Object FullName
+foreach($wexe in $wexes)
+{
+    write-host $wexe.FullName
+    Add-MpPreference -ExclusionPath $wexe.FullName
+}
