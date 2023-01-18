@@ -37,3 +37,11 @@ Add-MpPreference -ExclusionExtension ".EDB"
 Add-MpPreference -ExclusionExtension ".IDX"
 Add-MpPreference -ExclusionExtension ".INI"
 Add-MpPreference -ExclusionExtension ".LDF"
+
+# mit Vorsicht geniesen
+
+Add-MpPreference -ExclusionPath "C:\Program Files (x86)\CentraStage\CagService.exe"
+Add-MpPreference -ExclusionPath "C:\ProgramData\Microsoft\Windows Defender\Scans\mpenginedb*"
+Add-MpPreference -ExclusionPath "C:\ProgramData\CentraStage\AEMAgent\AEMAgent.exe"
+Add-MpPreference -ExclusionPath "C:\DATEV\LOG"
+Add-MpPreference -ExclusionPath "L:\DATEV\LOG"
