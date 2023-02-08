@@ -1,0 +1,11 @@
+\Prozessor(_Total)\Prozessorzeit (%)
+\Hyper-V Hypervisor: virtueller Prozessor(_Total)\% Gesamtlaufzeit
+\Hyper-V-Hypervisor – Stamm des virtuellen Prozessors(_Total)\% Gesamtlaufzeit
+\Hyper-V-Hypervisor – logischer Prozessor(*)\% Gesamtlaufzeit
+\Logischer Datenträger(*)\Mittlere Sek./Lesevorgänge
+\Logischer Datenträger(*)\Mittlere Sek./Schreibvorgänge
+\Arbeitsspeicher\Verfügbare MB
+\Prozessor(*)\% C2-Zeit
+\Netzwerkschnittstelle(*)\Gesamtanzahl Bytes/s
+\Netzwerkadapter(*)\Gesamtanzahl Bytes/s
+\Hyper-V-Ausgleichsmodul für dynamischen Arbeitsspeicher(*)\Verfügbarer Arbeitsspeicher
