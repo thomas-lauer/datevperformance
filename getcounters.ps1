@@ -32,3 +32,5 @@ $counterlist = @("\Prozessor(_Total)\Prozessorzeit (%)",
 # Gibt man den Parameter FileFormat nicht an, dann verwendet Export-Counter standardmäßig ein binäres Format.
 
 Get-Counter -Counter $counterlist -MaxSamples 120 | Export-Counter -Path .\counter.blg
+
+.\counter.blg
