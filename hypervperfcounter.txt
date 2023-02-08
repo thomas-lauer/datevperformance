@@ -1,7 +1,7 @@
 \Prozessor(_Total)\Prozessorzeit (%)
 \Hyper-V Hypervisor: virtueller Prozessor(_Total)\% Gesamtlaufzeit
 \Hyper-V-Hypervisor – Stamm des virtuellen Prozessors(_Total)\% Gesamtlaufzeit
-\Hyper-V-Hypervisor – logischer Prozessor(*)\% Gesamtlaufzeit
+\Hyper-V-Hypervisor – logischer Prozessor(*)\% Gesamtausführungszeit
 \Logischer Datenträger(*)\Mittlere Sek./Lesevorgänge
 \Logischer Datenträger(*)\Mittlere Sek./Schreibvorgänge
 \Arbeitsspeicher\Verfügbare MB
