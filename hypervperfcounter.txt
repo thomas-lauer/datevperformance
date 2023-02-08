@@ -1,5 +1,5 @@
 \Prozessor(_Total)\Prozessorzeit (%)
-\Hyper-V Hypervisor: virtueller Prozessor(_Total)\% Gesamtlaufzeit
+\Hyper-V Hypervisor – virtueller Prozessor(_Total)\% Gesamtausführungszeit
 \Hyper-V-Hypervisor – Stamm des virtuellen Prozessors(_Total)\% Gesamtausführungszeit
 \Hyper-V-Hypervisor – logischer Prozessor(*)\% Gesamtausführungszeit
 \Logischer Datenträger(*)\Mittlere Sek./Lesevorgänge
