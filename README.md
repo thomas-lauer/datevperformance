@@ -86,8 +86,9 @@ type "%uWorkDir%result.txt"
 https://github.com/glshnu/datevperformance/blob/main/leistungsindexsilent.ps1
 
 ## HYPERV Performance Counter  
-https://github.com/glshnu/datevperformance/blob/main/getcounters.ps1
-weitere Infos unter http://wiki.webperfect.ch/index.php?title=Hyper-V:_Performance_(Counters)
+https://github.com/glshnu/datevperformance/blob/main/getcounters.ps1  
+weitere Infos unter  
+http://wiki.webperfect.ch/index.php?title=Hyper-V:_Performance_(Counters)
 
 ## Links
 https://www.altaro.com/hyper-v/storage-performance-baseline-diskspd/  
