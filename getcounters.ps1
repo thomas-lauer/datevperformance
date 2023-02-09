@@ -31,6 +31,7 @@ $counterlist = @("\Prozessor(_Total)\Prozessorzeit (%)",
 # $counterlist | Get-Counter -MaxSamples 600 | Export-Counter -Path .\counter.csv -FileFormat csv
 # Gibt man den Parameter FileFormat nicht an, dann verwendet Export-Counter standardmäßig ein binäres Format.
 
-Get-Counter -Counter $counterlist -MaxSamples 120 | Export-Counter -Path .\counter.blg
+# -MaxSamples 300 = 5min, 3600 = 1 Stunde
+Get-Counter -Counter $counterlist -MaxSamples 300 | Export-Counter -Path .\counter.blg
 
 .\counter.blg
