@@ -1,0 +1,1 @@
+Get-NetTCPConnection | Where-Object state -ne Bound | Select-Object LocalAddress,LocalPort,RemoteAddress,RemotePort,State,OwningProcess, @{n="ProzessName"; e={( Get-Process -Id $_.OwningProcess).ProcessName}} | Out-GridView
