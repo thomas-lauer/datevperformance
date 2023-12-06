@@ -44,7 +44,10 @@ Je mehr IOPS und je geringer die Latenz, umso besser.
 |ESXi6.5, HPE DL380 G9, DATEV FS VM2016 Pday 2020/12                              | 1.315,93        | 84.219,38  | 0,047       |
 |HPE Synergy / Pure Storage / Comput Module 480 Gen10 Hyper-V-2019 / VM 2019      |  2.136,80       | 139.260,66 | 0,026       |
 |Azure D4v3 VM2019 P30 Storage                                                    |1.806,71         |115.629,00  | 0,026       |
-|HyperV2019 VM2016 auf DELL R630 auf IBM AllFlash Shared Storage Raid5            | 1.030,99        | 65.983,21  | 0,060
+|HyperV2019 VM2016 auf DELL R630 auf IBM AllFlash Shared Storage Raid5            | 1.030,99        | 65.983,21  | 0,060       |
+|DATEV Partnerasp HCI Cluster mit SSD                                             | 1.355,98        | 86.782,81  | 0,046       |
+|DATEV Partnerasp HCI Cluster mit NVME                                            | 1.586,40        | 101.529,30 | 0,039       |
+
 
 
 
