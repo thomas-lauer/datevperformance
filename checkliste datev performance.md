@@ -31,16 +31,18 @@ https://www.dnsstuff.com/de/vm-leistungsuberwachungstool
   
  - [ ] Service Tool - Laufzeitfaktoren (Hier prüft das DATEV Service Tool die Umgebung)
    
- - [ ] SQLAnalyse - (Der DATEV SQL Server zeichnet SQL Performance Werte auf. Diese können Exportiert werden und  mit dem Dokument SQLAnalyse überprüft bzw. angepasst werden.
+ - [ ] SQLAnalyse - (Der DATEV SQL Server zeichnet SQL Performance Werte auf.
+Diese können Exportiert werden und  mit dem Dokument SQLAnalyse überprüft bzw. angepasst werden.
    
- - [ ] Überbuchung von CPUs in virtuellen Umgebungen siehe https://github.com/glshnu/datevperformance
+ - [ ] Überbuchung von CPUs in virtuellen Umgebungen
+siehe https://github.com/glshnu/datevperformance
    
- - [ ] DISK bzw. Storage - Prüfen ob Cache eingeschaltet 
+ - [ ] DISK bzw. Storage - Prüfen ob Cache eingeschaltet  
 vergleiche DSKSPD https://github.com/glshnu/datevperformance
   
  - [ ] EDGE bzw. Chrome konfigurieren, dass inaktive Tabs schlafen gehen
    
- - [ ] Virenscanner und EDR Systeme - Ausschlüsse nach DATEV vorgaben konfigurieren
+ - [ ] Virenscanner und EDR Systeme - Ausschlüsse nach DATEV vorgaben konfigurieren  
 https://apps.datev.de/help-center/documents/1080028
   
  - [ ] DATEV ist eine Single Thread Applikation je mehr desto besser - hier kann der Single Thread Wert  
