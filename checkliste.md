@@ -8,7 +8,17 @@
 Auf diese 4 Bereiche müssen im Zusammenspiel der Applicationen betrachtet werden.
 
 ## Beispiel
-Wenn ein DATEV Arbeitsplatz eines Clients auf den DATEV SQL Server zugreift. Spielt die Leistung des Clients, die Leitung des SQL Servers und der Netzwerkdurchsatz eine Entscheidende Rolle.
+Wenn ein DATEV-Arbeitsplatz eines Clients auf den DATEV SQL Server zugreift, sind mehrere Faktoren entscheidend:
+
+- Leistung des Clients: Die Geschwindigkeit und Ressourcen des Arbeitsplatzrechners beeinflussen die Verbindung zum SQL-Server. Ein leistungsfähiger Client kann Anfragen schneller verarbeiten.
+
+- Leistung des SQL-Servers: Die Effizienz des SQL-Servers ist entscheidend. Ein gut konfigurierter und optimierter Server kann die Datenbankabfragen effizient bearbeiten.
+
+- Netzwerkdurchsatz: Die Netzwerkgeschwindigkeit zwischen dem Client und dem Server beeinflusst die Übertragung von Daten. Ein schnelles Netzwerk ermöglicht eine reibungslose Kommunikation.
+
+Die Kombination dieser Faktoren beeinflusst die Gesamtleistung der Verbindung zwischen dem DATEV-Arbeitsplatz und dem SQL-Server. Es ist wichtig sicherzustellen, dass alle Komponenten optimal konfiguriert sind, um eine effiziente Datenübertragung zu gewährleisten.
+
+https://www.datev.de/web/de/m/ueber-datev/datev-im-web/datev-von-a-z/probleme-mit-microsoft-sql-server-abhilfen-bei-datev/
 
 Client -> CPU, RAM, DISK, NETWORK -> SQL Server -> CPU, RAM, DISK, NETWORK
 Es kann auch Seiten Effekte geben, wenn z.B. ein Virenscanner ständig die MDF oder 
