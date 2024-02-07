@@ -52,7 +52,7 @@ eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
  Azure nennt das Proximity placement groups
  https://learn.microsoft.com/en-us/azure/virtual-machines/co-location
    
-  - [ ] DATEV SQL Tools - Hier werden Werte generiert, dies verglichen werden müssen.
+  - [ ] DATEV SQL Tools - Hier werden Werte generiert, die verglichen werden müssen.
 
 
 
