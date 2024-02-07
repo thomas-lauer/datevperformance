@@ -35,4 +35,4 @@ vergleiche DSKSPD https://github.com/glshnu/datevperformance
  - [ ] Virenscanner und EDR Systeme - Ausschlüsse nach DATEV vorgaben konfigurieren
 https://apps.datev.de/help-center/documents/1080028
 
-> Written with [StackEdit](https://stackedit.io/).
+
