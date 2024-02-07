@@ -43,7 +43,7 @@ vergleiche DSKSPD https://github.com/glshnu/datevperformance
  - [ ] Virenscanner und EDR Systeme - Ausschlüsse nach DATEV vorgaben konfigurieren
 https://apps.datev.de/help-center/documents/1080028
   
- - [ ] DATEV ist eine Single Thread Applikation je mehr desto besser - hier kann der Single Thread Wert
+ - [ ] DATEV ist eine Single Thread Applikation je mehr desto besser - hier kann der Single Thread Wert  
 eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
   
  - [ ] In virtuellen Umgebungen ist ist es besser alle VMs so nah wie möglich zu halten
