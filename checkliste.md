@@ -65,5 +65,3 @@ eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
   - [ ] DATEV SQL Tools - Hier werden Werte generiert, die verglichen werden müssen.
 
 
-
-> Written by Thomas Lauer
