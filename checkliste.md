@@ -62,6 +62,8 @@ eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
  Azure nennt das Proximity placement groups
  https://learn.microsoft.com/en-us/azure/virtual-machines/co-location
    
-  - [ ] DATEV SQL Tools - Hier werden Werte generiert, die verglichen werden müssen.
+ - [ ] DATEV SQL Tools - Hier werden Werte generiert, die verglichen werden müssen.
+
+ - [ ] Terminal Server Empfehlung für 10 Benutzer - 8x CPU, 64GB RAM, SSD - Logische CPU Überbuchung maximal 1,8
 
 
