@@ -38,7 +38,11 @@ Tools und Erfahrungswerte für den Test.
 https://www.dnsstuff.com/de/vm-leistungsuberwachungstool
 
 ## Checkliste
-  
+
+ - [ ] Auslastung des CLient PCs prüfen
+    
+ - [ ] Internetverbindung - sind evtl. Pingverluste oder eine hohe Latenzzeit vorhanden
+    
  - [ ] Service Tool - Laufzeitfaktoren (Hier prüft das DATEV Service Tool die Umgebung)
    
  - [ ] SQLAnalyse - (Der DATEV SQL Server zeichnet SQL Performance Werte auf.
