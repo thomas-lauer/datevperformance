@@ -27,7 +27,7 @@ LDF Files des SQL Servers überprüft.
 ## Datev stellt mehrere Tool zur Performance Messung bereit
 
  - Dokument SQL Analyse
- - SQM Tools
+ - DATEV SQM Tools
  - Servicetool
  - Leistungsindex (nicht immer aussagekräftig)
 
