@@ -68,13 +68,13 @@ eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
    
  - [ ] DATEV SQM Tools - Hier werden Werte generiert, die verglichen werden müssen.
 
- - [ ] Terminal Server Empfehlung für 6-10 Benutzer - 6-8x CPU, 32-64GB RAM, SSD
+ - [ ] Terminal Server Empfehlung für 6-10 Benutzer - 6-8x CPU, 32-64GB RAM, SSD  
        CPU Gesamtauslastung sollte 75% nicht übersteigen.
   
  - [ ] Auslagerungsdatei mind. Größe des Arbeitsspeichers
    
- - [ ] Benutzerprofile so klein wie möglich
-       Bilder, Musik, Videos aus Profil entfernen
+ - [ ] Benutzerprofile so klein wie möglich  
+       Bilder, Musik, Videos aus Profil entfernen  
        Papierkorb regelmässig leeren
 
  - [ ] Druckertreiber - https://apps.datev.de/help-center/documents/1007027
