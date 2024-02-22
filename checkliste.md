@@ -80,7 +80,10 @@ eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
  - [ ] Druckertreiber - https://apps.datev.de/help-center/documents/1007027
 
  - [ ] Prüfen ob in diesem Verzeichnis vielen Dateien liegen 'C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service'   
-       Kann z.B. gelöscht werden über Remove-Item -LiteralPath 'C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service' -Force -Recurse   
+       Kann z.B. gelöscht werden über
+       ```powershell
+       Remove-Item -LiteralPath 'C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service' -Force -Recurse
+       ```
        Über diesen Befehl kann man dem Defender sagen dass er es selbsständig nach x Tagen löschen soll - Set-MpPreference -ScanPurgeItemsAfterDelay x
        
 
