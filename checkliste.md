@@ -84,12 +84,12 @@ eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
 ```Powershell
 $p = Join-Path -Path $env:ProgramData -ChildPath "\Microsoft\Windows Defender\Scans\History\Service"
 Get-ChildItem -Recurse $p | Measure-Object | %{$_.Count}
-# Remove-Item -LiteralPath $p -Force -Recurse
+Remove-Item -LiteralPath $p -Force -Recurse
 ```   
-       Über diesen Befehl kann man dem Defender sagen dass er es selbsständig nach x Tagen löschen soll   
-       ```Batch
-       Set-MpPreference -ScanPurgeItemsAfterDelay x
-       ```  
+Über diesen Befehl kann man dem Defender sagen dass er es selbsständig nach x Tagen löschen soll   
+```Powershell
+Set-MpPreference -ScanPurgeItemsAfterDelay x
+```  
        
 
 
