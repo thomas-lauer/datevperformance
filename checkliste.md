@@ -81,11 +81,11 @@ eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
 
  - [ ] Prüfen ob in diesem Verzeichnis vielen Dateien liegen 'C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service'   
        Kann z.B. gelöscht werden über   
-       ```powershell
+       ```
        Remove-Item -LiteralPath 'C:\ProgramData\Microsoft\Windows Defender\Scans\History\Service' -Force -Recurse
        ```   
        Über diesen Befehl kann man dem Defender sagen dass er es selbsständig nach x Tagen löschen soll   
-       ```powershell
+       ```
        Set-MpPreference -ScanPurgeItemsAfterDelay x
        ```  
        
