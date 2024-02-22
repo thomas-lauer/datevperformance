@@ -53,3 +53,13 @@ $s = New-PSSession -ComputerName Server02 -Credential Domain01\User01
 New-MpPerformanceRecording -RecordTo C:\LocalPathOnServer02\trace.etl -Session $s
 ```
 Der obige Befehl erfasst eine Leistungsaufzeichnung auf Server02 (wie durch argument $s des Parameters Session angegeben) und speichert sie im angegebenen Pfad: C:\LocalPathOnServer02\trace.etl auf Server02.  
+
+### Muster Script
+```Powershell
+New-MpPerformanceRecording -RecordTo $env:TEMP\MpPerformanceRecord.etl -Seconds 1800
+Get-MpPerformanceReport -Path $env:TEMP\MpPerformanceRecord.etl -TopFiles:10 -TopExtensions:10 -TopProcesses:10 -TopScans:10
+```
+Dieses Script läuft 30min und zweigt danach die TopFiles,Ext,Prozesse und Scans an.
+
+
+
