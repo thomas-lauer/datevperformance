@@ -20,10 +20,10 @@ Wenn auf Computern, auf denen Microsoft Defender Antivirus ausgeführt wird, Lei
 - Wichtigste Prozesse, die sich auf die Überprüfungszeit auswirken
 - Die wichtigsten Dateierweiterungen, die sich auf die Überprüfungszeit auswirken
 - Kombinationen – z. B.:
--- Top-Dateien pro Erweiterung
--- Top-Pfade pro Erweiterung
--- Top-Prozesse pro Pfad
--- Top-Scans pro Datei
--- Top-Scans pro Datei und Prozess
+  - Top-Dateien pro Erweiterung
+  - Top-Pfade pro Erweiterung
+  - Top-Prozesse pro Pfad
+  - Top-Scans pro Datei
+  - Top-Scans pro Datei und Prozess
 
   
