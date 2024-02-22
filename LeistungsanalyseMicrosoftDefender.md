@@ -28,14 +28,28 @@ Wenn auf Computern, auf denen Microsoft Defender Antivirus ausgeführt wird, Lei
 
 
 ### Leistungsanalyse im Eisatz
-Um die Aufzeichnung von Systemereignissen zu starten, öffnen Sie PowerShell im Verwaltungsmodus, und führen Sie die folgenden Schritte aus:
 
 Führen Sie den folgenden Befehl aus, um die Aufzeichnung zu starten:
 
 ```PowerShell
-New-MpPerformanceRecording -RecordTo <recording.etl>
+New-MpPerformanceRecording -RecordTo recording.etl
 ```
-Dabei -RecordTo gibt der Parameter den vollständigen Pfad an, an dem die Ablaufverfolgungsdatei gespeichert wird. Weitere Cmdlet-Informationen finden Sie unter Microsoft Defender Antivirus-Cmdlets.
-Wenn es Prozesse oder Dienste gibt, die die Leistung beeinträchtigen, reproduzieren Sie die Situation, indem Sie die entsprechenden Aufgaben ausführen.
-Drücken Sie die EINGABETASTE , um die Aufzeichnung zu beenden und zu speichern, oder STRG+C , um die Aufzeichnung abzubrechen.
-Analysieren Sie die Ergebnisse mit dem Parameter des Get-MpPerformanceReport Leistungsanalysetools. Beispielsweise erhält der Benutzer beim Ausführen des Befehls Get-MpPerformanceReport -Path <recording.etl> -TopFiles 3 -TopScansPerFile 10eine Liste der zehn wichtigsten Scans für die drei wichtigsten Dateien, die sich auf die Leistung auswirken.  
+- Dabei -RecordTo gibt der Parameter den vollständigen Pfad an, an dem die Ablaufverfolgungsdatei gespeichert wird. Weitere Cmdlet-Informationen finden Sie unter Microsoft Defender Antivirus-Cmdlets.   
+- Wenn es Prozesse oder Dienste gibt, die die Leistung beeinträchtigen, reproduzieren Sie die Situation, indem Sie die entsprechenden Aufgaben ausführen.   
+- Drücken Sie die EINGABETASTE , um die Aufzeichnung zu beenden und zu speichern, oder STRG+C , um die Aufzeichnung abzubrechen.   
+- Analysieren Sie die Ergebnisse mit dem Parameter des Get-MpPerformanceReport Leistungsanalysetools. Beispielsweise erhält der Benutzer beim Ausführen des Befehls Get-MpPerformanceReport -Path <recording.etl> -TopFiles 3 -TopScansPerFile 10eine Liste der zehn wichtigsten Scans für die drei wichtigsten Dateien, die sich auf die Leistung auswirken.
+
+### Auswerten der Aufzeichnung
+```PowerShell
+Get-MpPerformanceReport -Path .\recording.etl -Topscans 1000
+```
+### Exportieren in CSV
+```PowerShell
+(Get-MpPerformanceReport -Path .\recording.etl -Topscans 1000).TopScans | Export-CSV -Path .\recording.csv -Encoding UTF8 -NoTypeInformation
+```
+### Erfassen einer Leistungsaufzeichnung für eine PowerShell-Remotesitzung
+```PowerShell
+$s = New-PSSession -ComputerName Server02 -Credential Domain01\User01
+New-MpPerformanceRecording -RecordTo C:\LocalPathOnServer02\trace.etl -Session $s
+```
+Der obige Befehl erfasst eine Leistungsaufzeichnung auf Server02 (wie durch argument $s des Parameters Session angegeben) und speichert sie im angegebenen Pfad: C:\LocalPathOnServer02\trace.etl auf Server02.  
