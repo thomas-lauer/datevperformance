@@ -16,7 +16,7 @@ in der VM ausführen
 
 | Wert     | Bewertung |
 |----------|-----------|
-|> 118.000 |:+1: good  |
+|> 70.000  |:+1: good  |
 |< 66.000  |:-1: bad   |
 
 Total IO und sehen hier drei wichtige Kenndaten: 
