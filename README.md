@@ -96,40 +96,27 @@ zwischen zwei VMs (TS und DC). Beide auf gleichem Host.
 
 ### DATEV Leistung Index auf TS ohne Benutzer
 
-[StartScore]
-Duration=3,205 Sekunden
+[StartScore] 3,205 Sekunden
+[DataAccessScore] 0,943 Sekunden
+[ProcessorScore] 0,683 Sekunden
+[HardDiskScore] 0,889 Sekunden
+[ServiceScore] 0,531 Sekunden
+[GuiScore] 3,054 Sekunden
+[OverallScore] 9,306 Sekunden
 
-[DataAccessScore]
-Duration=0,943 Sekunden
+[ProcessorInfo]   
+Processor=Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz   
+Description=Intel64 Family 6 Model 106 Stepping 6   
+MaxClockSpeed=2793   
+NumberOfCores=3   
+NumberOfLogicalProcessors=6   
 
-[ProcessorScore]
-Duration=0,683 Sekunden
+[ComputerInfo]   
+Model=Virtual Machine   
+TotalPhysicalMemory=32.766 MB   
 
-[HardDiskScore]
-Duration=0,889 Sekunden
-
-[ServiceScore]
-Duration=0,531 Sekunden
-
-[GuiScore]
-Duration=3,054 Sekunden
-
-[OverallScore]
-Duration=9,306 Sekunden
-
-[ProcessorInfo]
-Processor=Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz
-Description=Intel64 Family 6 Model 106 Stepping 6
-MaxClockSpeed=2793
-NumberOfCores=3
-NumberOfLogicalProcessors=6
-
-[ComputerInfo]
-Model=Virtual Machine
-TotalPhysicalMemory=32.766 MB
-
-[OperatingSystemInfo]
-Caption=Microsoft Windows Server 2022 Standard
+[OperatingSystemInfo]   
+Caption=Microsoft Windows Server 2022 Standard   
 
 
 
