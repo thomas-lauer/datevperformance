@@ -77,6 +77,7 @@ type "%uWorkDir%result.txt"
 |TSVM2016 32GB vRAM / 7 User DATEV / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht  | 18.317     |
 
 ## Referenzsystem 
+Wird von den Anwendern als gut bezeichnet. 
 
 ### iPerf 
 zwischen zwei VMs (TS und DC). Beide auf gleichem Host.
