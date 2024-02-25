@@ -96,30 +96,30 @@ zwischen zwei VMs (TS und DC). Beide auf gleichem Host.
 [^1]: MSDFE mDA = Microsoft Defender for Endpoints P1/P2 mit DATEV Ausschlüssen
 
 ### DATEV Leistung Index auf TS ohne Benutzer
-
-[StartScore] 3,205 Sekunden
-[DataAccessScore] 0,943 Sekunden
-[ProcessorScore] 0,683 Sekunden
-[HardDiskScore] 0,889 Sekunden
-[ServiceScore] 0,531 Sekunden
-[GuiScore] 3,054 Sekunden
-[OverallScore] 9,306 Sekunden
-
+   
+[StartScore] 3,205 Sekunden   
+[DataAccessScore] 0,943 Sekunden   
+[ProcessorScore] 0,683 Sekunden   
+[HardDiskScore] 0,889 Sekunden   
+[ServiceScore] 0,531 Sekunden   
+[GuiScore] 3,054 Sekunden  
+[OverallScore] 9,306 Sekunden  
+   
 [ProcessorInfo]   
 Processor=Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz   
 Description=Intel64 Family 6 Model 106 Stepping 6   
 MaxClockSpeed=2793   
 NumberOfCores=3   
 NumberOfLogicalProcessors=6   
-
+   
 [ComputerInfo]   
 Model=Virtual Machine   
 TotalPhysicalMemory=32.766 MB   
-
+   
 [OperatingSystemInfo]   
 Caption=Microsoft Windows Server 2022 Standard   
-
-
+   
+   
 
 ## CPU Performance prüfen
 [Prozessor messen](https://github.com/glshnu/datevperformance/blob/main/prozessor_messen.ps1)
