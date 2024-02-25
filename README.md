@@ -84,6 +84,14 @@ zwischen zwei VMs (TS und DC). Beide auf gleichem Host.
 |VM2022/HyperV2022 - HP DL380 XEON Gold 6342 2.8GHz, 10GBit/s Netzadapter                               | 6.64 Gbits/sec     |
 |VM2022/HyperV2022 - HP DL380 XEON Gold 6342 2.8GHz, 10GBit/s Netzadapter (10 Clients parallel) "-P 10" | 19 Gbits/sec       |
 
+#### Diskspd auf DATEV Laufwerk
+
+| System                                                                               | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
+|:-------------------------------------------------------------------------------------|----------------:|-----------:|------------:|
+|VM2022/HYPERV2022, DATEV Shared Storage, MSDFE mDA [^1] - Local LWC in VM             |   1.131,98      | 72.446,55  |       0,055 |
+|VM2022/HYPERV2022, DATEV Shared Storage, MSDFE mDA [^1] - DATEV Netzlaufwerk in VM    |        1.303,08 |  83.397,32 |       0,048 |
+[^1]: MSDFE mDA = Microsoft Defender for Endpoints P1/P2 mit DATEV Ausschlüssen
+
 
 ## CPU Performance prüfen
 [Prozessor messen](https://github.com/glshnu/datevperformance/blob/main/prozessor_messen.ps1)
@@ -104,6 +112,9 @@ https://github.com/glshnu/datevperformance/blob/main/leistungsindexsilent.ps1
 https://github.com/glshnu/datevperformance/blob/main/getcounters.ps1  
 weitere Infos unter  
 http://wiki.webperfect.ch/index.php?title=Hyper-V:_Performance_(Counters)
+
+## Datev Performance Checkliste
+https://github.com/glshnu/datevperformance/blob/main/checkliste.md
 
 ## Links
 https://www.altaro.com/hyper-v/storage-performance-baseline-diskspd/  
