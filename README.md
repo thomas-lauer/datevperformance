@@ -76,7 +76,9 @@ type "%uWorkDir%result.txt"
 |VM2019 / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht                             | 28.040     |
 |TSVM2016 32GB vRAM / 7 User DATEV / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht  | 18.317     |
 
-## iPerf 
+## Referenzsystem 
+
+### iPerf 
 zwischen zwei VMs (TS und DC). Beide auf gleichem Host.
 
 | Beschreibung                                                                                          | Wert               |
@@ -84,13 +86,51 @@ zwischen zwei VMs (TS und DC). Beide auf gleichem Host.
 |VM2022/HyperV2022 - HP DL380 XEON Gold 6342 2.8GHz, 10GBit/s Netzadapter                               | 6.64 Gbits/sec     |
 |VM2022/HyperV2022 - HP DL380 XEON Gold 6342 2.8GHz, 10GBit/s Netzadapter (10 Clients parallel) "-P 10" | 19 Gbits/sec       |
 
-#### Diskspd auf DATEV Laufwerk
+### Diskspd auf DATEV Laufwerk
 
 | System                                                                               | Durchsatz MiB/s |    IOPS    |  Latenz/ms  |
 |:-------------------------------------------------------------------------------------|----------------:|-----------:|------------:|
 |VM2022/HYPERV2022, DATEV Shared Storage, MSDFE mDA [^1] - Local LWC in VM             |   1.131,98      | 72.446,55  |       0,055 |
 |VM2022/HYPERV2022, DATEV Shared Storage, MSDFE mDA [^1] - DATEV Netzlaufwerk in VM    |        1.303,08 |  83.397,32 |       0,048 |
 [^1]: MSDFE mDA = Microsoft Defender for Endpoints P1/P2 mit DATEV Ausschlüssen
+
+### DATEV Leistung Index auf TS ohne Benutzer
+
+[StartScore]
+Duration=3,205 Sekunden
+
+[DataAccessScore]
+Duration=0,943 Sekunden
+
+[ProcessorScore]
+Duration=0,683 Sekunden
+
+[HardDiskScore]
+Duration=0,889 Sekunden
+
+[ServiceScore]
+Duration=0,531 Sekunden
+
+[GuiScore]
+Duration=3,054 Sekunden
+
+[OverallScore]
+Duration=9,306 Sekunden
+
+[ProcessorInfo]
+Processor=Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz
+Description=Intel64 Family 6 Model 106 Stepping 6
+MaxClockSpeed=2793
+NumberOfCores=3
+NumberOfLogicalProcessors=6
+
+[ComputerInfo]
+Model=Virtual Machine
+TotalPhysicalMemory=32.766 MB
+
+[OperatingSystemInfo]
+Caption=Microsoft Windows Server 2022 Standard
+
 
 
 ## CPU Performance prüfen
