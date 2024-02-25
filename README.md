@@ -76,6 +76,14 @@ type "%uWorkDir%result.txt"
 |VM2019 / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht                             | 28.040     |
 |TSVM2016 32GB vRAM / 7 User DATEV / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht  | 18.317     |
 
+## iPerf 
+
+| Beschreibung                                                                                          | Wert               |
+|:------------------------------------------------------------------------------------------------------|-------------------:|
+|VM2022/HyperV2022 - HP DL380 XEON Gold 6342 2.8GHz, 10GBit/s Netzadapter                               | 6.64 Gbits/sec     |
+|VM2022/HyperV2022 - HP DL380 XEON Gold 6342 2.8GHz, 10GBit/s Netzadapter (10 Clients parallel) "-P 10" | 19 Gbits/sec       |
+
+
 ## CPU Performance prüfen
 [Prozessor messen](https://github.com/glshnu/datevperformance/blob/main/prozessor_messen.ps1)
 
