@@ -1,7 +1,7 @@
 ### Analysieren des Microsoft Protection-Protokolls
    
-Die Microsoft-Schutzprotokolldatei finden Sie unter C:\ProgramData\Microsoft\Windows Defender\Support.  
-In MPLog-xxxxxxxx-xxxxxx.log finden Sie die geschätzten Informationen zur Leistungsbeeinträchtigung der ausgeführten Software als EstimatedImpact:  
+Die Microsoft-Schutzprotokolldatei finden Sie unter *C:\ProgramData\Microsoft\Windows Defender\Support*  
+In *MPLog-xxxxxxxx-xxxxxx.log* finden Sie die geschätzten Informationen zur Leistungsbeeinträchtigung der ausgeführten Software als EstimatedImpact:  
    
 Per-process counts:ProcessImageName: smsswd.exe, TotalTime: 6597, Count: 1406, MaxTime: 609, MaxTime   
 File: \Device\HarddiskVolume3\_SMSTaskSequence\Packages\WQ1008E9\Files\FramePkg.exe, EstimatedImpact: 65%
