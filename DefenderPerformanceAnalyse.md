@@ -7,7 +7,7 @@ Per-process counts:ProcessImageName: smsswd.exe, TotalTime: 6597, Count: 1406, M
 File: \Device\HarddiskVolume3\_SMSTaskSequence\Packages\WQ1008E9\Files\FramePkg.exe, EstimatedImpact: 65%
 
 |Feldname	        | Beschreibung                                                                                                                                                                          |
-|:------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |ProcessImageName   |	Prozessimagename                                                                                                                                                                    |
 |TotalTime	        | Die kumulierte Dauer in Millisekunden, die für die Überprüfung von Dateien aufgewendet wird, auf die durch diesen Prozess zugegriffen wird                                            |
 |Anzahl	           | Die Anzahl der gescannten Dateien, auf die von diesem Prozess zugegriffen wird                                                                                                        |
