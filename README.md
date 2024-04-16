@@ -71,7 +71,7 @@ type "%uWorkDir%result.txt"
 |> 25.000  |:+1: good  |
 |< 16.000  |:-1: bad   |
 
-# Beim Einsatz von Microsoft Defender for Endpoints werden die Ergebnisse des Powershell Scripts verfälscht
+### Beim Einsatz von Microsoft Defender for Endpoints werden die Ergebnisse des Powershell Scripts verfälscht
 Unter dieser Umgebung kann die CPUperf.exe verwendet werden
 
 | Wert        | Bewertung |
