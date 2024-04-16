@@ -71,6 +71,14 @@ type "%uWorkDir%result.txt"
 |> 25.000  |:+1: good  |
 |< 16.000  |:-1: bad   |
 
+# Beim Einsatz von Microsoft Defender for Endpoints werden die Ergebnisse des Powershell Scripts verfälscht
+Unter dieser Umgebung kann die CPUperf.exe verwendet werden
+
+| Wert        | Bewertung |
+|-------------|-----------|
+|> 5.500.000  |:+1: good  |
+|< 4.100.000  |:-1: bad   |
+
 | Beschreibung                                                                                          | Wert       |
 |:------------------------------------------------------------------------------------------------------|-----------:|
 |VM2019 / HyperV2019 - HP DL380 XEON Gold 6254 3.10GHz - 1,5 Fach überbucht                             | 28.040     |
