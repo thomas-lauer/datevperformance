@@ -68,8 +68,8 @@ eine CPU ermittelt werden, https://www.cpubenchmark.net/singleThread.html
    
  - [ ] DATEV SQM Tools - Hier werden Werte generiert, die verglichen werden müssen.
 
- - [ ] Terminal Server Empfehlung für 6-10 Benutzer - 6-8x CPU, 32-64GB RAM, SSD  
-       CPU Gesamtauslastung sollte 75% nicht übersteigen.
+ - [ ] Terminal Server Empfehlung für 6-8 Benutzer - 6-8x CPU, 32-64GB RAM, SSD  
+       CPU Gesamtauslastung sollte 75% nicht übersteigen.Empfehlung eine Logische CPU pro User.
   
  - [ ] Auslagerungsdatei mind. Größe des Arbeitsspeichers
    
