@@ -140,7 +140,8 @@ Caption=Microsoft Windows Server 2022 Standard
 [Check NUMA spanning](https://github.com/glshnu/datevperformance/blob/main/CheckNumaSpanning.ps1)
 
 ## Virenscanner ausschlüsse  
-[Microsoft Defender](https://github.com/glshnu/datevperformance/blob/main/msdefenderexclusions.ps1)
+[Microsoft Defender](https://github.com/glshnu/datevperformance/blob/main/msdefenderexclusions.ps1)  
+[Microsoft Empfehlungen für HYPERV Rolle](https://learn.microsoft.com/de-de/troubleshoot/windows-server/virtualization/antivirus-exclusions-for-hyper-v-hosts)
 
 ## Datev Leitungsindex silent ausführen
 https://github.com/glshnu/datevperformance/blob/main/leistungsindexsilent.ps1
