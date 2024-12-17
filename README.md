@@ -157,11 +157,11 @@ https://github.com/glshnu/datevperformance/blob/main/checkliste.md
 ## RAM Bedarf von VMs ermitteln
 Abfrage unter HYPER-V  
   
-´´´Powershell
+```Powershell
 Get-VM | select Name, `
 @{n="Angeforderter Speicher (GB)";e={$_.MemoryDemand/1GB}}, `
 @{n="Zugewiesener Speicher (GB)";e={$_.MemoryAssigned/1GB}}
-´´´
+```
 
 ## Links
 https://www.altaro.com/hyper-v/storage-performance-baseline-diskspd/  
