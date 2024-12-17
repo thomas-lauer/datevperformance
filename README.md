@@ -155,8 +155,9 @@ http://wiki.webperfect.ch/index.php?title=Hyper-V:_Performance_(Counters)
 https://github.com/glshnu/datevperformance/blob/main/checkliste.md  
 
 ## RAM Bedarf von VMs ermitteln
-Abfrahe unter HYPER-V
-´´´ Powershell
+Abfrage unter HYPER-V  
+  
+´´´Powershell
 Get-VM | select Name, `
 @{n="Angeforderter Speicher (GB)";e={$_.MemoryDemand/1GB}}, `
 @{n="Zugewiesener Speicher (GB)";e={$_.MemoryAssigned/1GB}}
